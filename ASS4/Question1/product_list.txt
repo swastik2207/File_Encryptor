@@ -1,3 +1,5 @@
 Product Id: 11  Purchase History for aloo :  The price of the product15.0 Total unit available 25
 Product Id: 22222  Purchase History for Aloo :  The price of the product55.0 Total unit available 16
 Product Id: 222236  Purchase History for Onion :  The price of the product26.0 Total unit available 25
+Product Id: 5555  Purchase History for Tommato :  The price of the product50.0 Total unit available 156
+Product Id: 111  Purchase History for Mango :  The price of the product15.0 Total unit available 125

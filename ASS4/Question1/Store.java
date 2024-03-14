@@ -133,7 +133,7 @@ class Store {
           boolean flag=true;
 while(flag){
      System.out.println("1.Add a Product\n"+
-                        "2.Purchase a Product\n"+
+                        "2.Buy a Product\n"+
                         "3.Show the Inventory\n"+
                          "4.Update product");
 
