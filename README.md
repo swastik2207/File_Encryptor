@@ -1,2 +1,2 @@
-# encrypty
-Encrypty: A file encryptor and decryptor writte in C++
+
+This is a Parallel File Encryptor Made with C++
