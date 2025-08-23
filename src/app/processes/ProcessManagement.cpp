@@ -10,8 +10,8 @@
 #include <semaphore.h>
 
 ProcessManagement::ProcessManagement() {
-    sem_t* itemsSemaphore = sem_open("/items_semaphore", O_CREAT, 0666, 0);
-    sem_t* emptySlotsSemaphore = sem_open("/empty_slots_semaphore", O_CREAT, 0666, 1000);
+    this->itemsSemaphore = sem_open("/items_semaphore", O_CREAT, 0666, 0);
+    this->emptySlotsSemaphore = sem_open("/empty_slots_semaphore", O_CREAT, 0666, 1000);
     shmFd = shm_open(SHM_NAME, O_CREAT | O_RDWR, 0666);
     ftruncate(shmFd, sizeof(SharedMemory));
     sharedMem = static_cast<SharedMemory *>(mmap(nullptr, sizeof(SharedMemory), PROT_READ | PROT_WRITE, MAP_SHARED, shmFd, 0));
